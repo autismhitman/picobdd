@@ -11,7 +11,7 @@ import net.bytebuddy.implementation.bind.annotation.Super;
 		glue = {"stepdefinitions","pages","pojos","drivers","constants","customType","util"},
 	    features = {"src/test/resources/features"},
 	    dryRun= false
-		)//AddProductToCart.feature//guest_place_an_order.feature
+		)
 
 public class RunnerTest extends AbstractTestNGCucumberTests{
 	
@@ -24,3 +24,4 @@ public class RunnerTest extends AbstractTestNGCucumberTests{
 }
 
 
+//AddProductToCart.feature//guest_place_an_order.feature
